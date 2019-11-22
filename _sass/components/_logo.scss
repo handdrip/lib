@@ -1,0 +1,18 @@
+/*------------------------------------*\
+  Components > Logo
+\*------------------------------------*/
+
+.c-logo {
+  &__link {
+    font-size: round($font-size-base * 0.7);
+    font-weight: 900;
+    transition: $global-transition;
+    color: #6f4e37;
+    letter-spacing: 0.1em;
+    text-shadow: 2px 2px 4px #6f373c, -1px -2px 0px #805a3f;
+
+    @include attention() {
+      text-decoration: none;
+    }
+  }
+}

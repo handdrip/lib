@@ -1,0 +1,21 @@
+/*------------------------------------*\
+  Objects > Wrapper
+\*------------------------------------*/
+
+.o-wrapper {
+  background: #fcfcfc;
+  padding: double($base-spacing-unit) 0;
+}
+
+/**
+ * Sticky footer
+ */
+.c-off-canvas-container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+
+  .o-wrapper {
+    flex: 1 0 auto;
+  }
+}

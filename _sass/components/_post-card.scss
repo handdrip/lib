@@ -39,6 +39,22 @@
     margin-bottom: half($font-size-base);
   }
 
+  &__tag {
+    font-family: $font-monospace;
+    font-size: $font-size-tiny;
+    font-weight: bold;
+    padding-bottom: 4px;
+    margin: 0 4px;
+
+    &.highlighted {
+      color: #3273ff;
+      font-weight: 900;
+      border-radius: 2px;
+      border: 1px solid;
+      padding: 4px;
+    }
+  }
+
   &__date {
     display: block;
     color: $color-gray;

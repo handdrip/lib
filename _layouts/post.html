@@ -24,18 +24,24 @@ layout: default
 
         <div class='c-content' itemprop='articleBody'>
           {% include page-image.html %}
-
           {{ content }}
         </div>
 
-        <div class='c-tags'>
+        <!-- <div class='c-tags'>
           {% for tag in page.tags %}
             <a href='{{ site.baseurl }}/tag/{{ tag }}'>{{ tag }}</a>
           {% endfor %}
+        </div> -->
+
+        <div class='c-tags'>
+          {% if page.tags %}
+            <div class='c-social-nav__icon' data-icon='ei-tag' data-size='s'></div>
+            {% for tag in page.tags %}
+              <span class="c-post-card__tag">{{ tag }}</span>
+            {% endfor %}
+          {% endif %}
         </div>
-
       </article>
-
     </div>
   </div>
 </div>

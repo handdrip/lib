@@ -15,7 +15,7 @@
   {% if post.tags %}
     <div class='c-social-nav__icon' data-icon='ei-tag' data-size='s'></div>
     {% for tag in post.tags %}
-      <a href="/tags/{{ tag }}" class="c-post-card__tag {% if tag == keytag %}highlighted{% endif %}">{{ tag }}</a>
+      <a href='{{ site.baseurl }}/tag/{{ tag }}' class="c-post-card__tag {% if tag == keytag %}highlighted{% endif %}">{{ tag }}</a>
     {% endfor %}
   {% endif %}
 </div> 

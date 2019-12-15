@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Laradock PM2 추가하기"
+title: "Node/Express js bcrypt error"
 date: 2019-12-15T23:05:00+09:00
 tags: [error, nodejs, express, bcrypt]
 image: "/images/posts/1.jpg"

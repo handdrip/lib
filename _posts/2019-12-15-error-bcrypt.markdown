@@ -23,4 +23,4 @@ npm rebuild bcrypt --build-from-source
 
 ##### refrences
 
-https://github.com/kelektiv/node.bcrypt.js/issues/635 // vaaski
+https://github.com/kelektiv/node.bcrypt.js/issues/635

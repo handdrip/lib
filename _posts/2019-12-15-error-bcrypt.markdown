@@ -6,7 +6,7 @@ tags: [error, nodejs, express, bcrypt]
 image: "/images/posts/1.jpg"
 ---
 
-##### problem node 서버 실행시 아래와 같은 에러 발생
+##### problem: node 서버 실행시 아래와 같은 에러 발생
 
 ```javascript
 internal/modules/cjs/loader.js:1197

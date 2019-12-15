@@ -3,7 +3,7 @@ layout: post
 title: "Laradock PM2 추가하기"
 date: 2019-12-15T23:05:00+09:00
 tags: [error, nodejs, express, bcrypt]
-image: "/images/posts/pm2.png"
+image: "/images/posts/1.jpg"
 ---
 
 ##### problem node 서버 실행시 아래와 같은 에러 발생

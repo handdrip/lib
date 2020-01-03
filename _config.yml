@@ -16,7 +16,7 @@ github: "handdrip"
 instagram: ""
 facebook: ""
 google_analytics: UA-153069100-1 # Google Analytics
-
+disqus_shortname: https-handdrip-github-io-lib
 markdown: kramdown
 highlighter: rouge
 gist:

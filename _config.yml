@@ -10,6 +10,7 @@ title: HAND DRIP
 email: "dripserver@gmail.com"
 description: ""
 baseurl: "/lib" # The subpath of your site, e.g. /blog
+favicon: "/images/favicon" # favicon
 url: "https://handdrip.github.io" # The base hostname & protocol for your site
 twitter: ""
 github: "handdrip"

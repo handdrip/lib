@@ -35,7 +35,7 @@ layout: default
 
         <div class='c-tags'>
           {% if page.tags %}
-            <div class='c-social-nav__icon' data-icon='ei-tag' data-size='s'></div>
+            <div class='c-social-nav__icon' data-icon='ei-tag' data-size='s' style="margin-top: 0;"></div>
             {% for tag in page.tags %}
               <span class="c-post-card__tag"><a href='{{ site.baseurl }}/tags/{{ tag }}'
                 class="c-post-card__tag {% if tag == keytag %}highlighted{% endif %}">{{ tag }}</a></span>
